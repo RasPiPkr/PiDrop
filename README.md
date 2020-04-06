@@ -3,6 +3,13 @@ A tkinter GUI file transfer to and from Dropbox using the Python API.
 
 This saves logging in through the Dropbox website to save time and you remembering your logging in details.
 
+FIRST OF ALL:
+
+install dropbox so in terminal enter: sudo pip3 install dropbox
+this should be the only thing you'll need to install as everything else should be on your Raspbian.
+
+then....
+
 Setup a Dropbox account and whilst in the main screen of your account you will see 3x dots near bottom right of the page
 click on that to popup a list and select developer. Select Python for the API and then click 
 generate token. Copy that and paste it inbetween the '' next to acc_token, then save this file.
